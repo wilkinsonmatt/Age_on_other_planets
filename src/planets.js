@@ -1,4 +1,4 @@
-export default function example() {
+export default class Ageonotherplanets {
 
 }
 
