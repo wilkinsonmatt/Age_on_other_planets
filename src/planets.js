@@ -16,6 +16,8 @@ export default class Ageonotherplanets {
     return marsAge;
   }
   getJupiterAge() {
+    let marsAge = 11.86 * this.earthAge;
+    return marsAge;
   }
 }
 
