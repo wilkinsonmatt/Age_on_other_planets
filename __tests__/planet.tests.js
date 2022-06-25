@@ -22,10 +22,10 @@ describe('Ageonotherplanets', () => {
     expect(user.getMarsAge()).toEqual(188);
   });
 
-  // test('should return their age in Jupiter years. (A Jupiter year is 11.86 Earth years.)', () => {
-  //   const age = new Ageonotherplanets(23);
-  //   expect(age.jupiter).toEqual(23);
-  // });
+  test('test 5: should return their age in Jupiter years. (A Jupiter year is 11.86 Earth years.)', () => {
+    const user = new Ageonotherplanets(100);
+    expect(user.getJupiterAge()).toEqual(188);
+  });
 
 });
 
