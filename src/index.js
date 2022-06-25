@@ -7,9 +7,8 @@ import './css/styles.css';
 
 $('#age-form').submit(function(event) {
   event.preventDefault();
-  let age = $('#length1').val();
-  console.log(age);
+  let age = parseInt($('#length1').val());
   let user = new Ageonotherplanets(age);
-  console.log(user);
+  console.log(user.getMercuryAge());
   $('#response').append("<p>" + user.earthAge + "</p>");
 }); 
