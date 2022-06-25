@@ -2,12 +2,10 @@ export default class Ageonotherplanets {
   constructor(age) {
     this.earthAge = age;
   }
-  mercuryAge = 0;
-  venusAge = 0;
-  marsAge = 0;
-  jupiterAge = 0;
 
   getMercuryAge() {
+    let mercuryAge = .24 * this.earthAge;
+    return mercuryAge;
   }
   getVenusAge() {
   }
