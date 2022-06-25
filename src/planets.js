@@ -3,6 +3,8 @@ export default class Ageonotherplanets {
     this.earthAge = age;
   }
 
+
+
   getMercuryAge() {
     let mercuryAge = .24 * this.earthAge;
     return mercuryAge;
@@ -18,6 +20,8 @@ export default class Ageonotherplanets {
   getJupiterAge() {
     let jupiterAge = 11.86 * this.earthAge;
     return jupiterAge;
+  }
+  getsListOfYearsToLiveOnOtherPlanets() {
   }
 }
 
