@@ -2,7 +2,7 @@ import Ageonotherplanets from './../src/planets.js';
 
 describe('Ageonotherplanets', () => {
 
-  test('should return an object age with a earth age of 23)', () => {
+  test('test1: should return an object called age with one property: earth age)', () => {
     const age = new Ageonotherplanets(23);
     expect(age).toEqual(23);
   });
