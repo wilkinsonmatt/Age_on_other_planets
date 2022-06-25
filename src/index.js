@@ -8,5 +8,8 @@ import './css/styles.css';
 $('#age-form').submit(function(event) {
   event.preventDefault();
   let age = $('#length1').val();
-  $('#response').append("<p>" + age + "</p>");
+  console.log(age);
+  let user = new Ageonotherplanets(age);
+  console.log(user);
+  $('#response').append("<p>" + user.earthAge + "</p>");
 }); 
