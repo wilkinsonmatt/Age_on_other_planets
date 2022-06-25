@@ -4,7 +4,7 @@ describe('Ageonotherplanets', () => {
 
   test('test1: should return an object called age with one property: earth age)', () => {
     const age = new Ageonotherplanets(23);
-    expect(age).toEqual(23);
+    expect(age.earthAge).toEqual(23);
   });
 
   // test('should return their age in Mercury years. (A Mercury year is .24 Earth years.)', () => {
