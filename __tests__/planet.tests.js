@@ -12,10 +12,10 @@ describe('Ageonotherplanets', () => {
     expect(user.getMercuryAge()).toEqual(24);
   });
 
-  // test('should return their age in Venus years. (A Venus year is .62 Earth years.)', () => {
-  //   const age = new Ageonotherplanets(23);
-  //   expect(age.venus).toEqual(23);
-  // });
+  test('test3: should return their age in Venus years. (A Venus year is .62 Earth years.)', () => {
+    const user = new Ageonotherplanets(100);
+    expect(user.getVenusAge()).toEqual(62);
+  });
 
   // test('should return their age in Mars years. (A Mars year is 1.88 Earth years.)', () => {
   //   const age = new Ageonotherplanets(23);
