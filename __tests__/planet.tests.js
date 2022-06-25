@@ -7,24 +7,24 @@ describe('Ageonotherplanets', () => {
     expect(age.earthAge).toEqual(23);
   });
 
-  // test('should return their age in Mercury years. (A Mercury year is .24 Earth years.)', () => {
-  //   const age = new Ageonotherplanets(23);
-  //   expect(age.Ageonotherplanets.mercury).toEqual(23);
-  // });
+  test('test2: should return their age in Mercury years. (A Mercury year is .24 Earth years.)', () => {
+    const age = new Ageonotherplanets(23);
+    expect(age.mercuryAge).toEqual(23);
+  });
 
   // test('should return their age in Venus years. (A Venus year is .62 Earth years.)', () => {
   //   const age = new Ageonotherplanets(23);
-  //   expect(age.Ageonotherplanets.venus).toEqual(23);
+  //   expect(age.venus).toEqual(23);
   // });
 
   // test('should return their age in Mars years. (A Mars year is 1.88 Earth years.)', () => {
   //   const age = new Ageonotherplanets(23);
-  //   expect(age.Ageonotherplanets.mars).toEqual(23);
+  //   expect(age.mars).toEqual(23);
   // });
 
   // test('should return their age in Jupiter years. (A Jupiter year is 11.86 Earth years.)', () => {
   //   const age = new Ageonotherplanets(23);
-  //   expect(age.Ageonotherplanets.jupiter).toEqual(23);
+  //   expect(age.jupiter).toEqual(23);
   // });
 
 });
