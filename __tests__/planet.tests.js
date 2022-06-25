@@ -24,7 +24,7 @@ describe('Ageonotherplanets', () => {
 
   test('test 5: should return their age in Jupiter years. (A Jupiter year is 11.86 Earth years.)', () => {
     const user = new Ageonotherplanets(100);
-    expect(user.getJupiterAge()).toEqual(188);
+    expect(user.getJupiterAge()).toEqual(1186);
   });
 
 });
