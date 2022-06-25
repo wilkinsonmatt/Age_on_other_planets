@@ -3,13 +3,13 @@ import Ageonotherplanets from './../src/planets.js';
 describe('Ageonotherplanets', () => {
 
   test('test1: should return an object called age with one property: earth age)', () => {
-    const age = new Ageonotherplanets(23);
-    expect(age.earthAge).toEqual(23);
+    const user = new Ageonotherplanets(100);
+    expect(user.earthAge).toEqual(100);
   });
 
   test('test2: should return their age in Mercury years. (A Mercury year is .24 Earth years.)', () => {
-    const age = new Ageonotherplanets(23);
-    expect(age.mercuryAge).toEqual(23);
+    const user = new Ageonotherplanets(100);
+    expect(user.getMercuryAge()).toEqual(24);
   });
 
   // test('should return their age in Venus years. (A Venus year is .62 Earth years.)', () => {
