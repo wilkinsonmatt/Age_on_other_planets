@@ -8,8 +8,12 @@ export default class Ageonotherplanets {
     return mercuryAge;
   }
   getVenusAge() {
+    let venusAge = .62 * this.earthAge;
+    return venusAge;
   }
   getMarsAge() {
+    let marsAge = 1.88 * this.earthAge;
+    return marsAge;
   }
   getJupiterAge() {
   }
