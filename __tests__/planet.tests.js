@@ -66,6 +66,12 @@ describe('Ageonotherplanets', () => {
     const user = new Ageonotherplanets(26);
     expect(user.getListOfLifeExpectancyforEachPlanet()).toEqual(["Based on average life expectancy you have 42 Earth years left to live", "Based on average life expectancy you have 10.08 Mercury years left to live", "Based on average life expectancy you have 26.04 Venus years left to live", "Based on average life expectancy you have 78.96 Mars years left to live", "Based on average life expectancy you have 498.12 Jupiter years left to live"]);
   });
+
+  test('test 16: should return an object called age with 7 properties)', () => {
+    const user = new Ageonotherplanets(100);
+    expect(user).toEqual({"age": 100, "lifeExpectancy": 68, "yearsToLive": -32, "yearsToLiveJupiter": -379.52, "yearsToLiveMars": -60.16, "yearsToLiveMercury": -7.68, "yearsToLiveVenus": -19.84});
+  });
+
 });
 
 describe('checkAge', () => {
@@ -74,5 +80,3 @@ describe('checkAge', () => {
     expect(checkAge(-1)).toEqual(false);
   });
 });
-
-
