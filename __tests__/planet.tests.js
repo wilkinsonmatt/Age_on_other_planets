@@ -42,9 +42,9 @@ describe('Ageonotherplanets', () => {
     expect(user.yearsToLiveMars).toEqual(-60.16);
   });
 
-  test('test 9: should determine how many years a user has left to live on Mars (yikes!))', () => {
+  test('test 9: should determine how many years a user has left to live on Jupiter (yikes!))', () => {
     const user = new Ageonotherplanets(100);
-    expect(user.yearsToLiveMars).toEqual(-60.16);
+    expect(user.yearsToLiveJupiter).toEqual(-379.52);
   });
 
 });
