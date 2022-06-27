@@ -47,6 +47,11 @@ describe('Ageonotherplanets', () => {
     expect(user.yearsToLiveJupiter).toEqual(-379.52);
   });
 
+  test('test 10: should return the number of years the user has lived past the life expectancy as a postive number, if the user has already surpassed the average life expectancy', () => {
+    const user = new Ageonotherplanets(100);
+    expect(user.getNumberOfYearsUserHasLivePastLifeExpectany()).toEqual(-379.52);
+  });
+
 });
 
 
