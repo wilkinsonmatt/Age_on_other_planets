@@ -28,10 +28,10 @@ Mainly one class that takes user age and uses logic to generate/return info abou
 
 * Download/Clone entire github file
 * Open repo folder in your text editor of choice.
-* run "$ npm install" in terminal 
+* run "$ npm install" in terminal to install all needed files
 * run "$ npm run build" in terminal
-* To run in browser use $ npm run start
-* To test use $ npm run test
+* run "$ npm run start" in terminal launch program in the browser
+* run "$ npm run test" in terminal to test
 
 ## Known Bugs
 
