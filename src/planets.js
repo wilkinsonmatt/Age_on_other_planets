@@ -8,7 +8,6 @@ export class Ageonotherplanets {
     this.yearsToLiveMars = this.yearsToLive * 1.88;
     this.yearsToLiveJupiter = this.yearsToLive * 11.86;
   }
-  
   getMercuryAge() {
     return .24 * this.age;
   }
@@ -21,7 +20,6 @@ export class Ageonotherplanets {
   getJupiterAge() {
     return 11.86 * this.age;
   }
-
   getListOfLifeExpectancyforEachPlanet() {
     let list = [];
     const lifeExpectancy = 68;
@@ -40,7 +38,6 @@ export class Ageonotherplanets {
     }
     return list;
   }
-
   getNumberOfYearsUserHasLivePastLifeExpectany() {
     if(this.age > this.lifeExpectancy) {
       return this.age - this.lifeExpectancy;
@@ -49,12 +46,9 @@ export class Ageonotherplanets {
     }
   }
 }
-
 export function checkAge(age) {
   if(age >= 0) {
     return true;
   }
   return false;
 }
-
-
