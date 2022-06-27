@@ -57,11 +57,6 @@ describe('Ageonotherplanets', () => {
     expect(user.getNumberOfYearsUserHasLivePastLifeExpectany()).toEqual(0);
   });
 
-  test('test 12: should array of strings that ', () => {
-    const user = new Ageonotherplanets(26);
-    expect(user.getNumberOfYearsUserHasLivePastLifeExpectany()).toEqual(0);
-  });
-
   test('test 13: should return an array containing how many planet years the user has to live on each planet', () => {
     const user = new Ageonotherplanets(100);
     expect(user.getListOfLifeExpectancyforEachPlanet()).toEqual(["You've lived 32 Earth years past the average life expectancy", "You've lived 7.68 Mercury years past the average life expectancy", "You've lived 19.84 Venus years past the average life expectancy", "You've lived 60.16 Mars years past the average life expectancy", "You've lived 379.52 Jupiter years past the average life expectancy"]);
