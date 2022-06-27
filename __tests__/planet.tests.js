@@ -1,4 +1,4 @@
-import Ageonotherplanets from './../src/planets.js';
+import { Ageonotherplanets, checkAge }  from './../src/planets.js';
 
 describe('Ageonotherplanets', () => {
 
@@ -71,8 +71,13 @@ describe('Ageonotherplanets', () => {
     const user = new Ageonotherplanets(26);
     expect(user.getListOfLifeExpectancyforEachPlanet()).toEqual(["Based on average life expectancy you have 42 Earth years left to live", "Based on average life expectancy you have 10.08 Mercury years left to live", "Based on average life expectancy you have 26.04 Venus years left to live", "Based on average life expectancy you have 78.96 Mars years left to live", "Based on average life expectancy you have 498.12 Jupiter years left to live"]);
   });
-  
+});
 
+describe('checkAge', () => {
+  test("test 15: should return true if it's a number above or equal 0, else return false", () => {
+    expect(checkAge(1)).toEqual(true);
+    expect(checkAge(-1)).toEqual(false);
+  });
 });
 
 
