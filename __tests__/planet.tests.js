@@ -4,7 +4,7 @@ describe('Ageonotherplanets', () => {
 
   test('test 1: should return an object called age with one property: earth age)', () => {
     const user = new Ageonotherplanets(100);
-    expect(user.earthAge).toEqual(100);
+    expect(user.age).toEqual(100);
   });
 
   test('test 2: should return their age in Mercury years. (A Mercury year is .24 Earth years.)', () => {
@@ -27,9 +27,9 @@ describe('Ageonotherplanets', () => {
     expect(user.getJupiterAge()).toEqual(1186);
   });
 
-  test('test 6: should return how many years a user has left to live on each planet', () => {
+  test('test 6: should determine how many years a user has left to live on Mercury… (yikes!))', () => {
     const user = new Ageonotherplanets(100);
-    expect(user.getsListOfYearsToLiveOnOtherPlanets()).toEqual(0);
+    expect(user.yearsToLiveMercury).toEqual(-7.68);
   });
 });
 
