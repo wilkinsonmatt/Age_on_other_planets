@@ -1,11 +1,12 @@
-# Portfolio
+# Super Galactic Age Calculator
 
 #### By Matt Wilkinson
 
-#### 
+#### Calculates age/life efficiency information relative to earth on different planets
 
 ## Github links
 
+https://github.com/wilkinsonmatt/Age_on_other_planets
 
 ## Technologies Used
 
@@ -14,26 +15,28 @@
 * Bootstrap
 * JS
 * Jquery
+* node
+* jest
+* babel
+* eslint
 
 ## Description
 
-
-## Tests
-
-
-
-
-
-
+Mainly one class that takes user age and uses logic to generate/return info about a the users age/life efficient depending on what method/property is called upon.
 
 ## Setup/Installation Requirements
 
-* Download entire github file
-* launch index.HTML file in Google Chrome
+* Download/Clone entire github file
+* Open repo folder in your text editor of choice.
+* run "$ npm install" in terminal 
+* run "$ npm run build" in terminal
+* To run in browser use $ npm run start
+* To test use $ npm run test
 
 ## Known Bugs
 
-* N/A
+* No known bugs at this point in time.
+* UI not in a complete state.
 
 ## License
 
