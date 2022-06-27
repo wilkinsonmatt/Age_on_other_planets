@@ -54,7 +54,7 @@ describe('Ageonotherplanets', () => {
 
   test('test 11: should return 0, if the user has not already surpassed the average life expectancy', () => {
     const user = new Ageonotherplanets(26);
-    expect(user.getNumberOfYearsUserHasLivePastLifeExpectany()).toEqual(32);
+    expect(user.getNumberOfYearsUserHasLivePastLifeExpectany()).toEqual(0);
   });
 
 });
