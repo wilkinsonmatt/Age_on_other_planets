@@ -37,7 +37,10 @@ describe('Ageonotherplanets', () => {
     expect(user.yearsToLiveVenus).toEqual(-19.84);
   });
 
-
+  test('test 8: should determine how many years a user has left to live on Mars (yikes!))', () => {
+    const user = new Ageonotherplanets(100);
+    expect(user.yearsToLiveMars).toEqual(-19.84);
+  });
 
 });
 
