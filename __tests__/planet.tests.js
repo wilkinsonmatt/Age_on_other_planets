@@ -74,7 +74,7 @@ describe('Ageonotherplanets', () => {
 });
 
 describe('checkAge', () => {
-  test("test 15: should return true if it's a number above or equal 0, else return false", () => {
+  test("test 15: should return true if user age is a number equal to or greater 0, or return false", () => {
     expect(checkAge(1)).toEqual(true);
     expect(checkAge(-1)).toEqual(false);
   });
