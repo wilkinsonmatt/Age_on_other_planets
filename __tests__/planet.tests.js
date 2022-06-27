@@ -34,8 +34,9 @@ describe('Ageonotherplanets', () => {
 
   test('test 7: should determine how many years a user has left to live on Venus (yikes!))', () => {
     const user = new Ageonotherplanets(100);
-    expect(user.yearsToLiveVenus).toEqual(-7.68);
+    expect(user.yearsToLiveVenus).toEqual(-19.84);
   });
+
 
 
 
