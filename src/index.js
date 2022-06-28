@@ -4,6 +4,7 @@ import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/styles.css';
 
+
 $('#age-form').submit(function(event) {
   event.preventDefault();
   let age = parseInt($('#length1').val());
@@ -14,3 +15,4 @@ $('#age-form').submit(function(event) {
     $('#response').append("You can't be negative years old silly");
   }
 }); 
+

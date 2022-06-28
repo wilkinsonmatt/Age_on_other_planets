@@ -8,7 +8,6 @@ export class Ageonotherplanets {
     this.yearsToLiveMars = this.yearsToLive * 1.88;
     this.yearsToLiveJupiter = this.yearsToLive * 11.86;
   }
-  
   getMercuryAge() {
     return .24 * this.age;
   }
