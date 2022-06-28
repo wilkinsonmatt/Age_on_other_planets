@@ -4,7 +4,7 @@
   "description": "* CSS\r * HTML\r * Bootstrap\r * JS\r * Jquery",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --mode development",
+    "build": "webpack --mode=development",
     "start": "npm run build & webpack-dev-server --open --mode development",
     "lint": "eslint src/*.js",
     "test": "jest --coverage"
@@ -20,11 +20,11 @@
     "eslint": "^6.3.0",
     "eslint-loader": "^3.0.0",
     "html-webpack-plugin": "^3.2.0",
-    "jest": "^24.9.0",
+    "jest": "^28.1.1",
     "style-loader": "^1.0.0",
     "webpack": "4.39.3",
     "webpack-cli": "^3.3.8",
-    "webpack-dev-server": "3.8.0"
+    "webpack-dev-server": "^3.8.0"
   },
   "dependencies": {
     "bootstrap": "^5.1.3",
